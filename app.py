@@ -12,7 +12,7 @@ os.environ["OPENAI_API_KEY"] = "sk-proj-WJnFnfRQe-T0AjMYlsm9G69VALc8sdpFotXjfHVZ
 
 
 # 💬 مدل زبانی و حافظه‌ها
-llm = ChatOpenAI(model="gpt-4o-ئهده", temperature=0.7)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
 
 short_term_memory = ConversationBufferMemory(
     memory_key="chat_history",
